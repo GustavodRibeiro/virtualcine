@@ -25,7 +25,7 @@ body,html
 }
 .meio
 {
-    width: 55%;
+    width: 35%;
     height: 90%;
     background-color: rgb(37, 37, 37);
     display: flex;
@@ -60,31 +60,31 @@ button
     background-color: #0069a7;
     color: white;
 }
+button 
 .voltar
 {
-    width: 45%;
+    width: 55%;
     height: 100%;
     border-radius: 10px;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #cfcfcf;
-    color: rgb(0, 0, 0);
+    background-color: #0069a7;
+    color: white;
 }
 button.voltar:hover
 {
-    background-color:  #eeeeee;;
-    color: rgb(0, 0, 0);
+    background-color: #0069a7;
+    color: white;
     cursor: pointer;
 }
-
 fieldset
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
-    width: 50%;
+    width: 80%;
     height: 70%;
     font-size: 23px;
-    }
+}
 .caixa_larga
 {
     width: 90%;
