@@ -1,4 +1,5 @@
-body,html
+body,
+html 
 {
     width: 100vw;
     height: 100vh;
@@ -11,11 +12,12 @@ body,html
     justify-content: center;
     overflow: hidden;
 }
-.fundo
+
+.fundo 
 {
     width: 100%;
     height: 100vh;
-    background-color: rgb(12,12,12);
+    background-color: rgb(12, 12, 12);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,6 +26,7 @@ body,html
     justify-content: center;
     justify-content: space-around;
 }
+
 .meio
 {
     width: 30%;
@@ -39,7 +42,8 @@ body,html
     border-radius: 10px;
     animation: slideInUp 1.5s;
 }
-.botoes
+
+.botoes 
 {
     width: 90%;
     height: 15%;
@@ -52,7 +56,8 @@ body,html
     justify-content: space-around;
     border-radius: 30%;
 }
-button
+
+button 
 {
     width: 45%;
     height: 100%;
@@ -62,7 +67,8 @@ button
     background-color: #0069a7;
     color: white;
 }
-.voltar
+
+.voltar 
 {
     width: 45%;
     height: 100%;
@@ -72,19 +78,23 @@ button
     background-color: #cfcfcf;
     color: rgb(0, 0, 0);
 }
-button.voltar:hover
+
+button.voltar:hover 
 {
-    background-color:  #eeeeee;;
+    background-color: #eeeeee;
+    ;
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
+
 button:hover
-{
+ {
     background-color: #008ddf;
     color: white;
     cursor: pointer;
 }
-fieldset
+
+fieldset 
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
@@ -92,11 +102,14 @@ fieldset
     height: 55%;
     font-size: 25px;
 }
-.caixa_larga
+
+.caixa_larga 
 {
     width: 98%;
     height: 20%;
+    font-size: 80%;
 }
+
 .escrita
 {
     color: white;
@@ -104,19 +117,19 @@ fieldset
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 87%;
 }
-a.link1
+a.link1 
 {
     text-decoration: none;
     color: rgb(35, 149, 255);
     cursor: pointer;
 }
-a.link
+a.link 
 {
     text-decoration: none;
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
-.barra
+.barra 
 {
     width: 85%;
     height: 12vh;
@@ -129,7 +142,7 @@ a.link
     justify-content: space-between;
     animation: slideInDown 1.5s;
 }
-a.link3
+a.link3 
 {
     text-decoration: none;
     color: white;
@@ -137,7 +150,7 @@ a.link3
     font-size: 140%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-a
+a 
 {
     cursor: pointer;
 }
