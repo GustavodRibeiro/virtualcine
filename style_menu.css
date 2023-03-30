@@ -7,18 +7,12 @@
 
 }
 
-body{
-  display: flex;
-  min-height: 100vh;
-  background: #2d2d2d;
-}
-
 .navigation{
-  position: relative;
-  height: 500px;
+  position: absolute;
+  height: 100%;
   background: #424242;
   width: 70px;
-  box-shadow: 10px 0 0 #099c22;
+  box-shadow: 10px 0 0 #288ff0;
   border-left: 10px solid #424242;
   overflow-x: hidden;
   transition: 0.5s;
@@ -70,7 +64,7 @@ body{
   white-space: nowrap;
 }
 .navigation ul li.active{
-  background: #099c22;
+  background: #288ff0;
 }
 .navigation ul li.active a::before{
   content: '';
@@ -81,7 +75,7 @@ body{
   height: 30px;
   background: #424242;
   border-radius: 50px;
-  box-shadow:15px 15px 0 #099c22;
+  box-shadow:15px 15px 0 #288ff0;
 }
 .navigation ul li.active a::after{
   content: '';
@@ -92,5 +86,5 @@ body{
   height: 30px;
   background: #424244;
   border-radius: 50px;
-  box-shadow:15px -15px #099c22;
+  box-shadow:15px -15px #288ff0;
 }
